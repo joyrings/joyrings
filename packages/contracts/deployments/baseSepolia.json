@@ -1,0 +1,11 @@
+{
+  "network": "baseSepolia",
+  "chainId": 84532,
+  "JoyRings": "0xCF98Ee83d6704a6CC2fB8c59FfD126053070B51B",
+  "JoyRingsMetadata": "0x0Ebd217153D2ca159DAE202351F2C87FaC181B76",
+  "usdc": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+  "owner": "0x5EB629B32F0287d0Ca462C5FD12A117392A65092",
+  "deployBlock": 47857284,
+  "deployedAt": "2026-10-08T18:09:49.118Z",
+  "commit": "72c8f23dd3f0939bf7397ce8b627456f2f5c73ef"
+}
