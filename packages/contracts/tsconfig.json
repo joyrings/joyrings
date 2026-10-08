@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "./contracts",
+    "./test",
+    "./scripts",
+    "./typechain-types",
+    "./hardhat.config.ts",
+    "../../apps/web/src/lib/catalog.ts"
+  ]
+}
