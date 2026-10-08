@@ -142,7 +142,7 @@ on [X](https://x.com/0xjoyrings).
 | Nov 23 | Witnesses | |
 | Nov 30 | Not only weddings | |
 | Dec 7 | Pairs, gifts and the thank-you | |
-| December | Security checks and a public bug bounty | |
+| December | Security checks: static analysis, fuzzing, invariant tests | |
 | Before Christmas | **Base mainnet**, in time for proposal season | |
 
 Building it? The technical side is in [DEVELOPMENT.md](DEVELOPMENT.md).
