@@ -1,0 +1,52 @@
+# This working copy is the whole project; the public repository is only part of
+# it: the contracts, their tests and scripts, the ring catalog they are seeded
+# from, and the docs. Everything else below stays on this machine.
+
+# ---- private: the website, except the catalog the deploy script reads ----
+/apps/web/*
+!/apps/web/src/
+/apps/web/src/*
+!/apps/web/src/lib/
+/apps/web/src/lib/*
+!/apps/web/src/lib/catalog.ts
+
+# ---- private: tooling, pitch and notes ----
+/scripts/
+/packages/contracts/scripts/demo.ts
+/pitch/
+/pitch — копия/
+/.claude/
+/REVIEW.md
+/RUNBOOK.md
+/SKILL.md
+
+# ---- dependencies and build output ----
+node_modules/
+.next/
+.next-demo/
+out/
+dist/
+coverage/
+coverage.json
+
+# hardhat
+packages/contracts/artifacts/
+packages/contracts/cache/
+packages/contracts/typechain-types/
+
+# ---- env: only the .env.example files are committed ----
+.env
+.env.local
+.env*.local
+
+# Compressed copies produced by scripts/pin-artwork.mjs. Regenerated on demand;
+# the originals in apps/web/public are the source of truth.
+.artwork/
+
+# artwork.json is committed on purpose: it is the record of which CID each
+# ring's artwork was pinned to, and sync-media compares against it.
+
+# misc
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts

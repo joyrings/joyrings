@@ -1,0 +1,19 @@
+{
+  "name": "joyrings",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "lint": "pnpm --filter web lint",
+    "test:contracts": "pnpm --filter contracts test",
+    "pin": "node scripts/pin-artwork.mjs",
+    "pin:dry": "node scripts/pin-artwork.mjs --dry-run",
+    "render:art": "node scripts/render-ring-art.mjs",
+    "render:art:dry": "node scripts/render-ring-art.mjs --dry-run",
+    "demo": "node scripts/demo.mjs"
+  },
+  "packageManager": "pnpm@10.34.2",
+  "devDependencies": {
+    "sharp": "^0.35.3"
+  }
+}
